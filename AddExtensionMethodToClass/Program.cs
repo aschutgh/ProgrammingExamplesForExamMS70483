@@ -21,6 +21,7 @@ namespace ExtensionMethods
         }
     }
 }
+
 namespace AddExtensionMethodToClass
 {
     class Program
