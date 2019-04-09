@@ -14,7 +14,7 @@ namespace ExtensionMethods
 {
     public static class MyExtensions
     {
-        public static int WordCount(this String str)
+        public static int WordCount(this String str) // notice this keyword
         {
             return str.Split(new char[] { ' ', '.', '?' },
                              StringSplitOptions.RemoveEmptyEntries).Length;
