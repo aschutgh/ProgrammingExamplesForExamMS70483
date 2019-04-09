@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddExtensionMethodToClass",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendingAnExistingClass", "ExtendingAnExistingClass\ExtendingAnExistingClass.csproj", "{D085C2A4-26E8-4BDB-8F86-B5E76336F231}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionImplicitExplicitSysdotConvert", "ConversionImplicitExplicitSysdotConvert\ConversionImplicitExplicitSysdotConvert.csproj", "{EF4B3111-6C97-4D45-A6CA-BEFC09D68B83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D085C2A4-26E8-4BDB-8F86-B5E76336F231}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D085C2A4-26E8-4BDB-8F86-B5E76336F231}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D085C2A4-26E8-4BDB-8F86-B5E76336F231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4B3111-6C97-4D45-A6CA-BEFC09D68B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4B3111-6C97-4D45-A6CA-BEFC09D68B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4B3111-6C97-4D45-A6CA-BEFC09D68B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4B3111-6C97-4D45-A6CA-BEFC09D68B83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
