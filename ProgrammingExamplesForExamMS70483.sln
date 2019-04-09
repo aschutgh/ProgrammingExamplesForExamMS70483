@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionImplicitExplicitS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParseAndOutKeyword", "TryParseAndOutKeyword\TryParseAndOutKeyword.csproj", "{68C76DA5-14C3-4FEC-AF53-1105A492E9D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchStatement", "SwitchStatement\SwitchStatement.csproj", "{42580CAA-3821-4FC8-A50F-C3F9D2010B03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{68C76DA5-14C3-4FEC-AF53-1105A492E9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68C76DA5-14C3-4FEC-AF53-1105A492E9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68C76DA5-14C3-4FEC-AF53-1105A492E9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42580CAA-3821-4FC8-A50F-C3F9D2010B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42580CAA-3821-4FC8-A50F-C3F9D2010B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42580CAA-3821-4FC8-A50F-C3F9D2010B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42580CAA-3821-4FC8-A50F-C3F9D2010B03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
