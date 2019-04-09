@@ -24,7 +24,7 @@ namespace SwitchStatement
             }
 
             Console.WriteLine("===============================");
-            // switch fall through example
+            // switch multiple cases example
             int value = 5;
 
             switch(value)
