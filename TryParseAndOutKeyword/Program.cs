@@ -9,7 +9,7 @@ namespace TryParseAndOutKeyword
             int number = 0;
             string numberString = "1234";
             // comment line above and uncomment line below to fail
-            // string numberString = "1234thisshouldfail";
+            // string numberString = "1234thisshouldfailtoconvert";
             // try to convert numberString to int and place result in number
             // returns true if succes otherwise false
             if (int.TryParse(numberString, out number)) // out keyword
