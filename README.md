@@ -1,0 +1,1 @@
+This repository contains examples of C# programming constructs in preparation of the Microsoft exam 70-483
