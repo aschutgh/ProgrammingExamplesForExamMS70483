@@ -25,7 +25,7 @@ namespace SwitchStatement
 
             Console.WriteLine("===============================");
             // switch multiple cases example
-            int value = 5;
+            int value = 1;
 
             switch(value)
             {
@@ -38,7 +38,7 @@ namespace SwitchStatement
                     Console.WriteLine("Variable value has value 3");
                     break;
                 default:
-                    Console.WriteLine("Variable value has value larger than 3");
+                    Console.WriteLine("Variable value has value larger than 3 or less than 0");
                     break;
             }
         }
