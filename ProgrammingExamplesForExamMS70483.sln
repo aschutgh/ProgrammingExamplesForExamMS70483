@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClass", "PartialClas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{0519440D-0F46-4F97-AA3C-ED5A1B75E443}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxingUnboxing", "BoxingUnboxing\BoxingUnboxing.csproj", "{DEC608E2-1999-42A9-8619-85C27344DF0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{0519440D-0F46-4F97-AA3C-ED5A1B75E443}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0519440D-0F46-4F97-AA3C-ED5A1B75E443}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0519440D-0F46-4F97-AA3C-ED5A1B75E443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC608E2-1999-42A9-8619-85C27344DF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC608E2-1999-42A9-8619-85C27344DF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC608E2-1999-42A9-8619-85C27344DF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC608E2-1999-42A9-8619-85C27344DF0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
