@@ -17,7 +17,15 @@ namespace StructWithIndexer
             public int Strength
             {
                 get { return strength; }
-                set { strength = value; }
+                set
+                {
+                    if (value < 1)
+                    { strength = 1; }
+                    else if (value > 5)
+                    { strength = 5; }
+                    else
+                    { strength = value; }
+                }
             }
 
             // Bean property (readonly)
@@ -45,7 +53,6 @@ namespace StructWithIndexer
         {
             // Using a struct
             Coffee coffee1 = new Coffee(3, "Arabica", "Kenya");
-            
             Console.WriteLine(coffee1.Strength);
             Console.WriteLine(coffee1.Bean);
             Console.WriteLine(coffee1.CountryOfOrigin);
