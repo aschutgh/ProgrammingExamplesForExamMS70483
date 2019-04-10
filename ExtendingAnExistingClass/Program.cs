@@ -14,7 +14,7 @@ namespace ExtendingAnExistingClass
     {
         public void RemoveDuplicates()
         {
-            base.Sort();
+            base.Sort(); // call base class method
             for (int i = this.Count - 1; i > 0; i--)
             {
                 if (this[i].Equals(this[i - 1]))
@@ -28,6 +28,7 @@ namespace ExtendingAnExistingClass
         static void Main(string[] args)
         {
             var ul = new UniqueList<int>();
+            ul.Add(3);
             ul.Add(1);
             ul.Add(2);
             ul.Add(3);

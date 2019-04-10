@@ -1,6 +1,7 @@
 ﻿using System;
 
 // source: 20483B Programming in Visual C#
+// FIXME: add struct with indexer
 
 namespace StructWithIndexer
 {
