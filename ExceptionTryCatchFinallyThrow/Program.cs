@@ -40,7 +40,7 @@ namespace ExceptionTryCatchFinallyThrow
                 }
                 catch(IndexOutOfRangeException)
                 {
-                    Console.WriteLine("I can't handle this.");
+                    Console.WriteLine("I can't handle this. The caller has to handle this exception. I will rethrow it.");
                     throw; // Comment this line and the catch block below will not execute.
                 }
                 
