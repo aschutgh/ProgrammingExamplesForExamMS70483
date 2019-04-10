@@ -9,16 +9,34 @@ namespace StructWithIndexer
         //Declaring a struct
         public struct Coffee
         {
-            public int Strength;
-            public string Bean;
-            public string CountryOfOrigin;
+            private int strength;
+            private string bean;
+            private string countryOfOrigin;
+
+            // Strength property
+            public int Strength
+            {
+                get { return strength; }
+                set { strength = value; }
+            }
+
+            // Bean property (readonly)
+            public string Bean
+            {
+                get { return bean; }
+            }
+
+            public string CountryOfOrigin
+            {
+                get { return countryOfOrigin; }
+            }
 
             // Name of the constructor is equal to the name of the struct
             public Coffee(int strength, string bean, string countryOfOrigin )
             {
-                this.Strength = strength; // this refers to the particular instance of a Coffee struct
-                this.Bean = bean; // bean refers to the parameter in the custom Coffee constructor
-                this.CountryOfOrigin = countryOfOrigin;
+                this.strength = strength; // this refers to the particular instance of a Coffee struct
+                this.bean = bean; // bean refers to the parameter in the custom Coffee constructor
+                this.countryOfOrigin = countryOfOrigin;
             }
         }
 
