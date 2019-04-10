@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingExamplesForExamMS70483", "ProgrammingExamplesForExamMS70483\ProgrammingExamplesForExamMS70483.csproj", "{1593B1FD-6700-4E60-AAA9-17C0EC0F0234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammingExamplesForExamMS70483", "ProgrammingExamplesForExamMS70483\ProgrammingExamplesForExamMS70483.csproj", "{1593B1FD-6700-4E60-AAA9-17C0EC0F0234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddExtensionMethodToClass", "AddExtensionMethodToClass\AddExtensionMethodToClass.csproj", "{1DBADF79-717B-4BFB-887D-1B75BF47A0CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddExtensionMethodToClass", "AddExtensionMethodToClass\AddExtensionMethodToClass.csproj", "{1DBADF79-717B-4BFB-887D-1B75BF47A0CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendingAnExistingClass", "ExtendingAnExistingClass\ExtendingAnExistingClass.csproj", "{D085C2A4-26E8-4BDB-8F86-B5E76336F231}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtendingAnExistingClass", "ExtendingAnExistingClass\ExtendingAnExistingClass.csproj", "{D085C2A4-26E8-4BDB-8F86-B5E76336F231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionImplicitExplicitSysdotConvert", "ConversionImplicitExplicitSysdotConvert\ConversionImplicitExplicitSysdotConvert.csproj", "{EF4B3111-6C97-4D45-A6CA-BEFC09D68B83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversionImplicitExplicitSysdotConvert", "ConversionImplicitExplicitSysdotConvert\ConversionImplicitExplicitSysdotConvert.csproj", "{EF4B3111-6C97-4D45-A6CA-BEFC09D68B83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParseAndOutKeyword", "TryParseAndOutKeyword\TryParseAndOutKeyword.csproj", "{68C76DA5-14C3-4FEC-AF53-1105A492E9D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryParseAndOutKeyword", "TryParseAndOutKeyword\TryParseAndOutKeyword.csproj", "{68C76DA5-14C3-4FEC-AF53-1105A492E9D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchStatement", "SwitchStatement\SwitchStatement.csproj", "{42580CAA-3821-4FC8-A50F-C3F9D2010B03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchStatement", "SwitchStatement\SwitchStatement.csproj", "{42580CAA-3821-4FC8-A50F-C3F9D2010B03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndLambdas", "DelegatesAndLambdas\DelegatesAndLambdas.csproj", "{8223C5A3-4C68-4D60-82BE-6E78D8F29887}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesAndLambdas", "DelegatesAndLambdas\DelegatesAndLambdas.csproj", "{8223C5A3-4C68-4D60-82BE-6E78D8F29887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructWithIndexer", "StructWithIndexer\StructWithIndexer.csproj", "{C717E4A0-DDA2-43F9-861B-DD8A65A5E79D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8223C5A3-4C68-4D60-82BE-6E78D8F29887}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8223C5A3-4C68-4D60-82BE-6E78D8F29887}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8223C5A3-4C68-4D60-82BE-6E78D8F29887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C717E4A0-DDA2-43F9-861B-DD8A65A5E79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C717E4A0-DDA2-43F9-861B-DD8A65A5E79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C717E4A0-DDA2-43F9-861B-DD8A65A5E79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C717E4A0-DDA2-43F9-861B-DD8A65A5E79D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
