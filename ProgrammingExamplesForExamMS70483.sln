@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TernaryOperator", "TernaryO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClass", "PartialClass\PartialClass.csproj", "{A3950A83-FA81-4B7E-8BFA-58DC780B212E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{0519440D-0F46-4F97-AA3C-ED5A1B75E443}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{A3950A83-FA81-4B7E-8BFA-58DC780B212E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3950A83-FA81-4B7E-8BFA-58DC780B212E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3950A83-FA81-4B7E-8BFA-58DC780B212E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0519440D-0F46-4F97-AA3C-ED5A1B75E443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0519440D-0F46-4F97-AA3C-ED5A1B75E443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0519440D-0F46-4F97-AA3C-ED5A1B75E443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0519440D-0F46-4F97-AA3C-ED5A1B75E443}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
