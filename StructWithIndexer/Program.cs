@@ -76,7 +76,7 @@ namespace StructWithIndexer
             Coffee coffee2 = new Coffee(4, "Arabica", "Colombia");
             Coffee coffee3 = new Coffee(2, "Arabica", "Nicaragua");
             Menu menu1 = new Menu();
-            menu1.coffees = new Coffee[5];
+            menu1.coffees = new Coffee[5]; // instantiate array
             menu1[0] = coffee1;
             menu1[1] = coffee2;
             menu1[2] = coffee3;
