@@ -1,7 +1,7 @@
 ﻿using System;
 
 // source: 20483B Programming in Visual C#
-// FIXME: add struct with indexer
+
 
 namespace StructWithIndexer
 {
@@ -49,6 +49,22 @@ namespace StructWithIndexer
             }
         }
 
+        public struct Menu
+        {
+            public Coffee[] coffees; // Coffee array cannot be instantiated within a struct
+
+            public Coffee this[int index]
+
+            {
+                get { return coffees[index]; }
+                set { coffees[index] = value; }
+            }
+
+            public int Length
+            {
+                get { return coffees.Length; }
+            }
+        }
 
         static void Main(string[] args)
         {
@@ -57,6 +73,21 @@ namespace StructWithIndexer
             Console.WriteLine(coffee1.Strength);
             Console.WriteLine(coffee1.Bean);
             Console.WriteLine(coffee1.CountryOfOrigin);
+            Coffee coffee2 = new Coffee(4, "Arabica", "Colombia");
+            Coffee coffee3 = new Coffee(2, "Arabica", "Nicaragua");
+            Menu menu1 = new Menu();
+            menu1.coffees = new Coffee[5];
+            menu1[0] = coffee1;
+            menu1[1] = coffee2;
+            menu1[2] = coffee3;
+            Console.WriteLine($"Number of coffees on the menu: {menu1.Length}");
+            for(int i = 0; i < menu1.Length; i++)
+            {
+                Console.WriteLine($"{i} : {menu1[i].Bean}");
+                Console.WriteLine($"{i} : {menu1[i].Strength}");
+                Console.WriteLine($"{i} : {menu1[i].CountryOfOrigin}");
+                Console.WriteLine();
+            }
         }
     }
 }
