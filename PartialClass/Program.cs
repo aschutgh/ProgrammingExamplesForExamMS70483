@@ -1,17 +1,43 @@
 ﻿using System;
 
 /*
- * FIXME: Add partial class example
- * 
+ * source:  https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods
  */
 
 namespace PartialClass
 {
-    class Program
+    public partial class Coords
     {
-        static void Main(string[] args)
+        private int x;
+        private int y;
+
+        public Coords(int x, int y)
         {
-            Console.WriteLine("Hello World!");
+            this.x = x;
+            this.y = y;
         }
     }
+
+    public partial class Coords
+    {
+        public void PrintCoords()
+        {
+            Console.WriteLine("Coords: {0},{1}", x, y);
+        }
+
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+            Coords myCoords = new Coords(10, 15);
+            myCoords.PrintCoords();
+
+            // Keep the console window open in debug mode.
+            //Console.WriteLine("Press any key to exit.");
+            //Console.ReadKey();
+        }
+    }
+    // Output: Coords: 10,15
 }
