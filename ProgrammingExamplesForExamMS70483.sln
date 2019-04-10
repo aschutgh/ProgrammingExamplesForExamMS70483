@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxingUnboxing", "BoxingUnb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedAndOptionalParameters", "NamedAndOptionalParameters\NamedAndOptionalParameters.csproj", "{CBE29CBF-D840-490F-AA78-0BA7EDEB8BFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsOperator", "IsOperator\IsOperator.csproj", "{9601AA37-5E65-4646-B9ED-1C7D4011C696}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{CBE29CBF-D840-490F-AA78-0BA7EDEB8BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBE29CBF-D840-490F-AA78-0BA7EDEB8BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBE29CBF-D840-490F-AA78-0BA7EDEB8BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9601AA37-5E65-4646-B9ED-1C7D4011C696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9601AA37-5E65-4646-B9ED-1C7D4011C696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9601AA37-5E65-4646-B9ED-1C7D4011C696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9601AA37-5E65-4646-B9ED-1C7D4011C696}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
