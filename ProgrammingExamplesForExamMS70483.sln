@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullCoalescingOperator", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TernaryOperator", "TernaryOperator\TernaryOperator.csproj", "{02DCC2FE-938F-48FD-8235-6888480B808C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClass", "PartialClass\PartialClass.csproj", "{A3950A83-FA81-4B7E-8BFA-58DC780B212E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{02DCC2FE-938F-48FD-8235-6888480B808C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02DCC2FE-938F-48FD-8235-6888480B808C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02DCC2FE-938F-48FD-8235-6888480B808C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3950A83-FA81-4B7E-8BFA-58DC780B212E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3950A83-FA81-4B7E-8BFA-58DC780B212E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3950A83-FA81-4B7E-8BFA-58DC780B212E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3950A83-FA81-4B7E-8BFA-58DC780B212E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
