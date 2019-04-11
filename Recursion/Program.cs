@@ -28,7 +28,7 @@ namespace Recursion
             return Palindrome(word.Substring(1, word.Length - 2));
         }
 
-        static int Fibonacci(int n) // FIXME: rewrite with BigInteger to avoid integer overflow
+        static int Fibonacci(int n) // BigInteger is not necessary. Do not use with n > 30.
         {
             if (n < 2)
                 return n;
@@ -37,15 +37,15 @@ namespace Recursion
 
         // Fibonacci recursive function with memoization
         // A dictionary in Main is referenced. This is necassary because C# does not allow global variables
-        static int FibonacciMemo(int n, ref Dictionary<int, int> FibNumbers)
-        { // FIXME: rewrite with BigInteger to avoid integer overflow
+        static BigInteger FibonacciMemo(int n, ref Dictionary<int, BigInteger> FibNumbers)
+        {
             if (!FibNumbers.ContainsKey(n))
                 FibNumbers.Add(n, FibonacciMemo(n - 1, ref FibNumbers) + FibonacciMemo(n - 2, ref FibNumbers));
             return FibNumbers[n];
         }
         static void Main(string[] args)
         {
-            Dictionary<int, int> FibNumbers = new Dictionary<int, int>()
+            Dictionary<int, BigInteger> FibNumbers = new Dictionary<int, BigInteger>()
             {
                 {0, 0 },
                 {1, 1 }
@@ -65,7 +65,7 @@ namespace Recursion
             }
             Console.WriteLine();
             Console.WriteLine("Fibonacci dictionary contains: ");
-            foreach(KeyValuePair<int, int> kvp in FibNumbers)
+            foreach(KeyValuePair<int, BigInteger> kvp in FibNumbers)
             {
                 Console.WriteLine($"key: {kvp.Key} value: {kvp.Value}");
             }
