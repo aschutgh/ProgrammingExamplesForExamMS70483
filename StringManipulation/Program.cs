@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace StringManipulation
 {
@@ -6,7 +7,15 @@ namespace StringManipulation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // This gives an error. Strings in C# are immutable.
+            //string SomeText = "Some text";
+            //SomeText[0] = 'N';
+
+            // Strings of type StringBuilder are mutalbe.
+            StringBuilder sb = new StringBuilder("Some text");
+            Console.WriteLine(sb);
+            sb[0] = 'N';
+            Console.WriteLine(sb);
         }
     }
 }
