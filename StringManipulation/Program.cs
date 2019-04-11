@@ -27,8 +27,29 @@ namespace StringManipulation
         {
             return FirstName + " " + LastName;
         }
+
+        public string ToString(string format)
+        {
+            if (string.IsNullOrWhiteSpace(format) || format == "G") format = "FL";
+            format = format.Trim().ToUpperInvariant();
+
+            switch (format)
+            {
+                case "FL":
+                    return FirstName + " " + LastName;
+                case "LF":
+                    return LastName + " " + FirstName;
+                case "FSL":
+                    return FirstName + ", " + LastName;
+                case "LSF":
+                    return LastName + ", " + FirstName;
+                default:
+                    throw new FormatException(String.Format("The {0} format string is not supported.", format));
+            }
+        }
     }
 
+    
     class Program
     {
         static void Main(string[] args)
@@ -99,6 +120,13 @@ namespace StringManipulation
             Console.WriteLine(d.ToString("d", provider));
             Console.WriteLine(d.ToString("D", provider));
             Console.WriteLine(d.ToString("M", provider));
+
+            Console.WriteLine(p); // This calls the overridden ToString() method
+            Console.WriteLine(p.ToString()); // This calls the overridden ToString() method
+            Console.WriteLine(p.ToString(null)); // This calls the ToString(string format) method
+            Console.WriteLine(p.ToString("")); // This calls the ToString(string format) method
+            Console.WriteLine(p.ToString("FL")); // This calls the ToString(string format) method
+            Console.WriteLine(p.ToString("LSF")); // This calls the ToString(string format) method
         }
     }
 }
