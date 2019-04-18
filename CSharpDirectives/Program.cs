@@ -3,7 +3,10 @@
 using System;
 
 /*
- * If DEBUG is defined some code runs. To disable this behaviour do the following:
+ * DEBUG symbol is defined by the line #define DEBUG
+ * #if DEBUG checks if DEBUG is defined and if this is the case the statement
+ * Console.WriteLine("Debug mode is on"); is executed.
+ * To disable this behaviour do the following:
  * comment the #define DEBUG line
  * uncomment the #undef DEBUG line
  *  
