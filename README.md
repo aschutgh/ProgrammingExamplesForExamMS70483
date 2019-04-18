@@ -5,7 +5,7 @@ Most of the examples target .NET Core 2.2. These also run on GNU/Linux.
 # TODO
 - Complete example in project [interfaces](https://github.com/aschutgh/ProgrammingExamplesForExamMS70483/tree/master/Interfaces).
 
-# .NET Core on Debian Stretch GNU/Linux
+# .NET Core on [Debian](https://www.debian.org/) [GNU/Linux](https://www.gnu.org/gnu/linux-and-gnu.en.html)
 Instructions for installing .NET Core on GNU/Linux can be found [here](https://dotnet.microsoft.com/download/linux-package-manager/debian9/sdk-current).
 
 # Visual Studio Code
