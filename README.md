@@ -4,7 +4,18 @@ Most of the examples target .NET Core 2.2. These also run on [GNU/Linux](https:/
 
 # TODO
 - Complete example in project [interfaces](https://github.com/aschutgh/ProgrammingExamplesForExamMS70483/tree/master/Interfaces).
-
+- Add more examples about these topics:
+	- implementing .NET interfaces
+		- IList
+		- IDictionary
+		- IEnumerator
+		- IEnumerable
+	- linq
+	- linq to xml
+	- threads
+	- tasks
+	- database
+	- encryption
 # .NET Core on Debian GNU/Linux
 Instructions for installing .NET Core on [Debian](https://www.debian.org/) GNU/Linux can be found [here](https://dotnet.microsoft.com/download/linux-package-manager/debian9/sdk-current).
 
