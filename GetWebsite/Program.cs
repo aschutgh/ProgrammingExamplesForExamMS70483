@@ -2,6 +2,11 @@
 using System.IO;
 using System.Net;
 
+/*
+ * Source: Programming in C# Exam ref 70-483
+ * Wouter de Kort
+ */
+
 namespace GetWebsite
 {
     class Program
