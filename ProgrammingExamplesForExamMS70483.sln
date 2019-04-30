@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpDirectives", "CSharpD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{91AE86B7-82DD-4B47-92AF-6515CA43BCD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWebsite", "GetWebsite\GetWebsite.csproj", "{136E22E1-D8FD-4F21-9E8F-ACF5F630D5D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetWebsite", "GetWebsite\GetWebsite.csproj", "{136E22E1-D8FD-4F21-9E8F-ACF5F630D5D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionDecryption", "EncryptionDecryption\EncryptionDecryption.csproj", "{ACC53525-9B0E-40DA-8158-4D4346E6BF6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{136E22E1-D8FD-4F21-9E8F-ACF5F630D5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{136E22E1-D8FD-4F21-9E8F-ACF5F630D5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{136E22E1-D8FD-4F21-9E8F-ACF5F630D5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC53525-9B0E-40DA-8158-4D4346E6BF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC53525-9B0E-40DA-8158-4D4346E6BF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC53525-9B0E-40DA-8158-4D4346E6BF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC53525-9B0E-40DA-8158-4D4346E6BF6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
