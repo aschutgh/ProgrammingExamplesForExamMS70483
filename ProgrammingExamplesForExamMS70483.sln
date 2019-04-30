@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpDirectives", "CSharpDirectives\CSharpDirectives.csproj", "{A2495B86-81D0-460F-B05A-CFA32D14F1F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{91AE86B7-82DD-4B47-92AF-6515CA43BCD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{91AE86B7-82DD-4B47-92AF-6515CA43BCD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWebsite", "GetWebsite\GetWebsite.csproj", "{136E22E1-D8FD-4F21-9E8F-ACF5F630D5D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{91AE86B7-82DD-4B47-92AF-6515CA43BCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91AE86B7-82DD-4B47-92AF-6515CA43BCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91AE86B7-82DD-4B47-92AF-6515CA43BCD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136E22E1-D8FD-4F21-9E8F-ACF5F630D5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136E22E1-D8FD-4F21-9E8F-ACF5F630D5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136E22E1-D8FD-4F21-9E8F-ACF5F630D5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136E22E1-D8FD-4F21-9E8F-ACF5F630D5D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

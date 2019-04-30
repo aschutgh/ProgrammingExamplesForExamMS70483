@@ -7,7 +7,7 @@ Most of the examples target .NET Core 2.2. These also run on [GNU/Linux](https:/
 - Add more examples about these topics:
 	- abstract classes
 		- properties in abstract classes
-	- implementing .NET interfaces
+	- using .NET interfaces
 		- IList
 		- IDictionary
 		- IEnumerator
