@@ -100,6 +100,21 @@ namespace WorkingWithStreams
             Console.WriteLine(uncompressedFile.Length);
             Console.WriteLine(compressedFile.Length);
 
+            /*
+             * Listing 4-19
+             */
+
+            string path5 = @"C:\temp\bufferedStream.txt";
+            using (FileStream fileStream = File.Create(path5))
+            {
+                using (BufferedStream bufferedStream = new BufferedStream(fileStream))
+                {
+                    using (StreamWriter streamWriter = new StreamWriter(bufferedStream))
+                    {
+                        streamWriter.WriteLine("A line of text.");
+                    }
+                }
+            }
 
         }
     }
