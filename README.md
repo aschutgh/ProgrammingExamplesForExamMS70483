@@ -16,8 +16,6 @@ Most of the examples target .NET Core 2.2. These also run on [GNU/Linux](https:/
 	- linq to xml
 	- threads
 	- tasks
-	- database
-	- encryption
 
 # .NET Core on Debian GNU/Linux
 Instructions for installing .NET Core on [Debian](https://www.debian.org/) GNU/Linux can be found [here](https://dotnet.microsoft.com/download/linux-package-manager/debian9/sdk-current).
