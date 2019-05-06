@@ -57,7 +57,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptionDecryption", "Enc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriveInfoExample", "DriveInfoExample\DriveInfoExample.csproj", "{95E6468F-E87E-43A7-9102-61D4505E8537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithStreams", "WorkingWithStreams\WorkingWithStreams.csproj", "{BAC397A0-C831-453A-BA24-70BC1DE70FCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithStreams", "WorkingWithStreams\WorkingWithStreams.csproj", "{BAC397A0-C831-453A-BA24-70BC1DE70FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncIO", "AsyncIO\AsyncIO.csproj", "{B70A713B-537B-47B7-8BBA-74424CE77D07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{BAC397A0-C831-453A-BA24-70BC1DE70FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAC397A0-C831-453A-BA24-70BC1DE70FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAC397A0-C831-453A-BA24-70BC1DE70FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70A713B-537B-47B7-8BBA-74424CE77D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70A713B-537B-47B7-8BBA-74424CE77D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70A713B-537B-47B7-8BBA-74424CE77D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70A713B-537B-47B7-8BBA-74424CE77D07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
